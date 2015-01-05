@@ -1,0 +1,20 @@
+{
+  "name": "CookieLogger",
+  "version": "1.0",
+  "description": "Logging Cookies Info",
+  "permissions": ["webRequest", "webRequestBlocking", "storage",
+                  "http://*/", "https://*/", "cookies"
+                  ],
+  "background": {
+    "scripts": ["url_parser.js", "cookie_logger.js", "background.js", "mining/background.js" ]
+  },
+
+  "browser_action": {
+      "default_icon": "images.png",
+      "default_popup": "popup.html",
+      "default_title": "Cookie Logger"
+  },
+
+
+  "manifest_version": 2
+}

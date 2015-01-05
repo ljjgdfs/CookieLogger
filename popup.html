@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="popup.css" rel="stylesheet" type="text/css">
+  <script src="jquery-1.7.2.min.js"></script>
+  <script src="popup.js"></script>
+  <script src="mining/mining.js"></script>
+</head>
+<body>
+
+<div class="separator"> <label> Cookie Logger </label></div>
+<div class="menu">
+    <div class="item">
+        <label>
+            <input type="radio", name="state", class="state", value="enable", id="enable"> Enable<br>
+        </label>
+    </div>
+    <div class="item">
+        <label>
+            <input type="radio", name="state", class="state", value="disable", id="disable"> Disable <br>
+        </label>
+    </div>
+</div>
+
+<div class="separator"> <span> Logging Option </span></div>
+
+<div class="menu">
+    <div class="item">
+        <label>
+            <input type="radio", name="option", class="option", value="full", id="full"> Full URL <br>
+        </label>
+    </div>
+    <div class="item">
+        <label>
+            <input type="radio", name="option", class="option", value="path", id="path"> URL Path <br>
+        </label>
+    </div>
+</div>
+
+<div class="separator"> <span>Management</span></div>
+<div class="menu"> 
+    <div id="clear" class="item">
+        <label style="padding-left:25px">Clear History</label>
+    </div>
+    <div id="mining" class="item">
+        <label style="padding-left:25px">Dashboard</label>
+    </div>
+    <div id="about" class="item">
+        <label style="padding-left:25px">About</label>
+    </div>
+</div>
+
+</body>
+</html>
